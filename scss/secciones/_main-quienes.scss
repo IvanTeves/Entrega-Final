@@ -1,0 +1,16 @@
+.main-quienes {
+    display: flex;
+    position: relative;
+    top: 10vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.902);
+}
+.main-quienes article{
+    height: 90vh;
+    width: 60%;
+    text-align: center;
+    color: white;
+    align-items: center;
+}

@@ -1,0 +1,495 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 10vh;
+  width: 100vw;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.images {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.768627451) 100%), url("../Recursos/images/lashes.png");
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center center;
+}
+
+.images-2 {
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.768627451) 100%), url("../Recursos/images/nails.jpg");
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center 10%;
+}
+
+.images-3 {
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.768627451) 100%), url("../Recursos/images/perfilado-3.jpg");
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: 50% 47%;
+  background-size: cover;
+}
+
+.main {
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 10vh;
+  width: 100vw;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+/* Images Hover */
+.images {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.768627451) 100%), url("../Recursos/images/lashes.png");
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center center;
+}
+
+.images-2 {
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.768627451) 100%), url("../Recursos/images/nails.jpg");
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center 10%;
+}
+
+.images-3 {
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.768627451) 100%), url("../Recursos/images/perfilado-3.jpg");
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: 50% 47%;
+  background-size: cover;
+}
+
+.images a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  opacity: 0.25;
+  font-size: 7vw;
+}
+
+.images-2 a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  opacity: 0.25;
+  font-size: 7vw;
+}
+
+.images-3 a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  opacity: 0.25;
+  font-size: 7vw;
+}
+
+.images:hover {
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.1450980392) 100%), url("../Recursos/images/lashes.png");
+}
+
+.images-2:hover {
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.1450980392) 100%), url("../Recursos/images/nails.jpg");
+}
+
+.images-3:hover {
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.1450980392) 100%), url("../Recursos/images/perfilado-3.jpg");
+}
+
+.footer {
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  color: aliceblue;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.902);
+  border: none;
+}
+
+.footer a {
+  font-family: "Poppins", sans-serif;
+  padding: 2px;
+  color: white;
+  height: 20px;
+  opacity: 0.15;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: aliceblue;
+  opacity: 0.5;
+  border-radius: 7px;
+}
+
+.icon {
+  display: none;
+}
+
+.footer img:hover {
+  opacity: 1;
+  color: white;
+}
+
+@media (max-width: 400px) {
+  .Letra {
+    display: none;
+  }
+  .icon {
+    display: contents;
+  }
+}
+/*Seccion Quienes somos */
+.main-contact {
+  display: flex;
+  position: relative;
+  top: 10vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.902);
+  padding: 30px;
+  height: 90vh;
+  width: 100%;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-style {
+  font-family: "Poppins" sans-serif;
+  margin: 5px 1px;
+  height: 1.5rem;
+  width: 10rem;
+}
+
+.form div {
+  font-family: "Poppins", sans-serif;
+  font-size: small;
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+
+#contacto {
+  font-size: large;
+}
+
+.Section-contact {
+  display: flex;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.902);
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-products {
+  position: relative;
+  display: flex;
+  top: 10vh;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-start;
+}
+
+.main-products section {
+  height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: repeat(2, 2fr);
+  color: blue;
+  grid-template-areas: "producto-1 producto-2 producto-3 producto-4" "producto-5 producto-6 producto-7 producto-8";
+  background-color: rgba(0, 0, 0, 0.902);
+}
+
+.main-products section div {
+  background-color: orange;
+  margin: 10px;
+}
+
+.main-products section div:hover {
+  background-color: orange;
+  margin: 10px;
+}
+
+.producto-1 {
+  grid-area: producto-1;
+  /* background-image: url(../Recursos/images/crema.jpg); */
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.768627451) 100%), url(../Recursos/images/crema.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 3px;
+}
+
+.producto-2 {
+  grid-area: producto-2;
+  /* background-image: url(../Recursos/images/crema.jpg); */
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.768627451) 100%), url(../Recursos/images/crema-facial.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 3px;
+}
+
+.producto-3 {
+  grid-area: producto-3;
+  /* background-image: url(../Recursos/images/crema.jpg); */
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.768627451) 100%), url(../Recursos/images/pestañas-magneticas.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 3px;
+}
+
+.producto-4 {
+  grid-area: producto-4;
+  /* background-image: url(../Recursos/images/crema.jpg); */
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.768627451) 100%), url(../Recursos/images/nails.jpg);
+  background-size: cover;
+  background-position: 46% center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 3px;
+}
+
+.producto-5 {
+  grid-area: producto-5;
+  /* background-image: url(../Recursos/images/crema.jpg); */
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.768627451) 100%), url(../Recursos/images/aguamiscelar.jpg);
+  background-size: cover;
+  background-position: center 45%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 3px;
+}
+
+.producto-6 {
+  grid-area: producto-6;
+  /* background-image: url(../Recursos/images/crema.jpg); */
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.768627451) 100%), url(../Recursos/images/protectorsolar.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 3px;
+}
+
+.producto-7 {
+  grid-area: producto-7;
+  /* background-image: url(../Recursos/images/crema.jpg); */
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.768627451) 100%), url(../Recursos/images/cera-depilar.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 3px;
+}
+
+.producto-8 {
+  grid-area: producto-8;
+  /* background-image: url(../Recursos/images/crema.jpg); */
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.768627451) 100%), url(../Recursos/images/crema-antiarrugas.jpg);
+  background-size: cover;
+  background-position: 39% center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 3px;
+}
+
+.product-text {
+  color: aliceblue;
+  opacity: 0.75;
+  font-family: "Poppins", sans-serif;
+  font-size: larger;
+}
+
+/* Responsive para celular */
+@media (max-width: 400px) {
+  .main-products {
+    position: relative;
+    display: flex;
+    top: 10vh;
+    flex-direction: column;
+    height: 200vh;
+    justify-content: flex-start;
+  }
+  .main-products section {
+    height: 195.58vh;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(8, 2fr);
+    color: blue;
+    border: none;
+    grid-template-areas: "producto-1 producto-1 producto-1 producto-1" "producto-2 producto-2 producto-2 producto-2" "producto-3 producto-3 producto-3 producto-3" "producto-4 producto-4 producto-4 producto-4" "producto-5 producto-5 producto-5 producto-5" "producto-6 producto-6 producto-6 producto-6" "producto-7 producto-7 producto-7 producto-7" "producto-8 producto-8 producto-8 producto-8";
+    background-color: rgba(0, 0, 0, 0.902);
+  }
+}
+.main-ourservices {
+  display: flex;
+  position: relative;
+  top: 10vh;
+  height: 90vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.902);
+}
+
+.slice {
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.902);
+  width: 60%;
+}
+
+.slice img {
+  background-color: rgba(0, 0, 0, 0.902);
+  width: 40%;
+  height: 70vh;
+}
+
+.main-ourservices article p {
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+}
+
+.header {
+  height: 10vh;
+  width: 100vw;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.902);
+  z-index: 1;
+}
+
+/* Logo general */
+.logo-inicio {
+  height: 10vh;
+  width: 13vw;
+  background-image: url("../Recursos/images/navlogo.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.list-style {
+  list-style-type: none;
+  display: flex;
+  width: 87vw;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
+}
+
+.list-style_ancle {
+  text-decoration: none;
+  opacity: 0.25;
+  color: white;
+}
+
+.list-style_ancle:hover {
+  opacity: 0.5;
+  color: white;
+}
+
+.actives {
+  padding: 5px;
+  color: white !important;
+  text-decoration: none;
+  opacity: 0.85 !important;
+}
+
+.navbar {
+  height: 10vh;
+}
+
+.color {
+  color: white !important;
+  opacity: 0.35 !important;
+}
+
+@media (max-width: 400px) {
+  .logo-inicio {
+    width: 40vw;
+    height: 7vh;
+  }
+}
+.main-quienes {
+  display: flex;
+  position: relative;
+  top: 10vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.902);
+}
+
+.main-quienes article {
+  height: 90vh;
+  width: 60%;
+  text-align: center;
+  color: white;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
