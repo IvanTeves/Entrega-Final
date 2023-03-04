@@ -1,6 +1,6 @@
 .header{
     height: 10vh;
-    width: 100vw;
+    width: 100%;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.902);
     z-index: 1;
@@ -47,6 +47,12 @@
 .color{
     color: white !important;
     opacity: 0.35 !important;
+}
+
+.nav-link:hover {
+    color: aliceblue!important;
+    opacity: .5!important;
+    border-radius: 7px;
 }
 @media (max-width: 400px){
     .logo-inicio{

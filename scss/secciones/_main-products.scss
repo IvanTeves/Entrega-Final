@@ -8,6 +8,7 @@
 }
 .main-products section{
     height: 90vh;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(4,2fr);
     grid-template-rows: repeat(2,2fr);
