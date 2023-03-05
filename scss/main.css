@@ -97,7 +97,7 @@
 }
 
 .images-3 {
-  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.768627451) 100%), url("../Recursos/images/perfilado-3.jpg");
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.768627451) 100%), url("../Recursos/images/perfilado-3.webp");
   width: 100vw;
   height: 60vh;
   display: flex;
@@ -141,7 +141,7 @@
 }
 
 .images-3:hover {
-  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.1450980392) 100%), url("../Recursos/images/perfilado-3.jpg");
+  background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.1450980392) 100%), url("../Recursos/images/perfilado-3.webp");
 }
 
 #polylashes {
