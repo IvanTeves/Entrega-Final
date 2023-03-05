@@ -3,19 +3,22 @@
     display: flex;
     top: 10vh;
     flex-direction: column;
-    height: 100vh;
+    height: 300vh;
     justify-content: flex-start;
 }
 .main-products section{
-    height: 90vh;
+    height: 290vh;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4,2fr);
-    grid-template-rows: repeat(2,2fr);
+    grid-template-rows: repeat(4,2fr);
     color: blue;
-    grid-template-areas: "producto-1 producto-2 producto-3 producto-4"
-                         "producto-5 producto-6 producto-7 producto-8"
-    ;
+    grid-template-areas: "producto-1 producto-1 producto-2 producto-2"
+                         "producto-3 producto-3 producto-4 producto-4"
+                         "producto-5 producto-5 producto-6 producto-6"
+                         "producto-7 producto-7 producto-8 producto-8"
+    
+                         ;
     background-color: rgba(0, 0, 0, 0.902);
 }
 .main-products section div{

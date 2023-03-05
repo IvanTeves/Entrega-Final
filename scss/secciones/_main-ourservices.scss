@@ -47,19 +47,25 @@
     opacity: .15;
     text-decoration: none;
 }
+.footer-ourservices a:hover{
+    color: aliceblue;
+    opacity: .5;
+    border-radius: 7px;
+} 
+
 .titulo{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Serif Pro', serif;
     color: aliceblue; 
     opacity: .75;
     size: large ; 
     margin-top: 10vh;
 }
 .subtitulo{
-    font-family: 'Poppins', sans-serif;
     color: aliceblue; 
     opacity: .75;
     size: large ; 
     margin-top: 10vh;
+    font-family: 'Source Serif Pro', serif;
 
 }
 
@@ -72,6 +78,10 @@
     margin-right: 10vw ;
     text-align: center;
 }
+article p {
+    color: rgba(255, 255, 255, 0.3);
+}
+
 
 @media (max-width: 400px){
     .video {

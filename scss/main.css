@@ -144,6 +144,15 @@
   background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.5647058824) 0%, rgba(0, 0, 0, 0.1450980392) 100%), url("../Recursos/images/perfilado-3.jpg");
 }
 
+#polylashes {
+  font-family: "Source Serif Pro", serif;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.47);
+  background-color: rgba(0, 0, 0, 0.902);
+  margin: 0;
+  padding: 2vh;
+}
+
 .footer {
   height: 100px;
   width: 100%;
@@ -252,23 +261,27 @@
   width: 40%;
 }
 
+#mapa {
+  padding: 3vw;
+}
+
 .main-products {
   position: relative;
   display: flex;
   top: 10vh;
   flex-direction: column;
-  height: 100vh;
+  height: 300vh;
   justify-content: flex-start;
 }
 
 .main-products section {
-  height: 90vh;
+  height: 290vh;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 2fr);
-  grid-template-rows: repeat(2, 2fr);
+  grid-template-rows: repeat(4, 2fr);
   color: blue;
-  grid-template-areas: "producto-1 producto-2 producto-3 producto-4" "producto-5 producto-6 producto-7 producto-8";
+  grid-template-areas: "producto-1 producto-1 producto-2 producto-2" "producto-3 producto-3 producto-4 producto-4" "producto-5 producto-5 producto-6 producto-6" "producto-7 producto-7 producto-8 producto-8";
   background-color: rgba(0, 0, 0, 0.902);
 }
 
@@ -458,8 +471,14 @@
   text-decoration: none;
 }
 
+.footer-ourservices a:hover {
+  color: aliceblue;
+  opacity: 0.5;
+  border-radius: 7px;
+}
+
 .titulo {
-  font-family: "Poppins", sans-serif;
+  font-family: "Source Serif Pro", serif;
   color: aliceblue;
   opacity: 0.75;
   size: large;
@@ -467,11 +486,11 @@
 }
 
 .subtitulo {
-  font-family: "Poppins", sans-serif;
   color: aliceblue;
   opacity: 0.75;
   size: large;
   margin-top: 10vh;
+  font-family: "Source Serif Pro", serif;
 }
 
 .articulo {
@@ -481,6 +500,10 @@
   margin-left: 10vw;
   margin-right: 10vw;
   text-align: center;
+}
+
+article p {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 @media (max-width: 400px) {
