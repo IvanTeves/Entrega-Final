@@ -275,6 +275,11 @@
   width: 14vw;
 }
 
+@media (max-width: 400px) {
+  #consulta {
+    width: 65vw;
+  }
+}
 .main-products {
   position: relative;
   display: flex;
