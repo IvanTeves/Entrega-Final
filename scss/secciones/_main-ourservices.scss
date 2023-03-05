@@ -61,12 +61,13 @@
     margin-top: 10vh;
 }
 .subtitulo{
-    color: aliceblue; 
-    opacity: .75;
-    size: large ; 
-    margin-top: 10vh;
     font-family: 'Source Serif Pro', serif;
 
+    text-align: center;
+    color: rgba(255, 255, 255, 0.47);
+    margin: 0;
+    padding: 2vh;
+    font-weight: 400;
 }
 
 .articulo{
@@ -83,7 +84,17 @@
     font-family: 'Source Serif Pro', serif;
 }
 
+#nuestrosservicios{
+    font-family: 'Source Serif Pro', serif;
 
+    text-align: center;
+    color: rgba(255, 255, 255, 0.47);
+    margin: 0;
+    padding-top: 5vh;
+    font-weight: 400;
+    padding-bottom: 0;
+
+}
 @media (max-width: 400px){
     .video {
         width: 80%;
